@@ -2,7 +2,7 @@ import operator
 
 # input : file의 이름, 단위 시간, 출력할 결과의 개수
 def extraction_highlight(file_path, interval, number_of_results):
-    file = open(file_path, 'r')
+    file = open(file_path, 'r', encoding='UTF8')
     lines = file.readlines()
     file.close()
 
